@@ -1,4 +1,4 @@
-module github.com/example-inc/memcached-operator
+module github.com/sgaoshang/memcached-operator
 
 go 1.13
 
