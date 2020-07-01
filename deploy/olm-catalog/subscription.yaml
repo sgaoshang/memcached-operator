@@ -1,0 +1,12 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: memcached-subscription
+  namespace: default 
+spec:
+  channel: alpha
+  installPlanApproval: Automatic
+  name: memcached-operator
+  source: memcached-catalogsource
+  sourceNamespace: default
+  startingCSV: memcached-operator.v0.0.1
